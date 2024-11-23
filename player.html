@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="music-player">
+    <h1>Simple Music Player</h1>
+    <audio id="audio">
+      <source src="C:\Users\vekat\Downloads\Hey Minnale (Amaran)-(MusicJagat).mp3" type="audio/mp3">
+    </audio>
+    <div class="controls">
+      <button id="play">Play</button>
+      <button id="pause">Pause</button>
+      <button id="stop">Stop</button>
+    </div>
+    <div class="progress-container">
+      <input id="progress" type="range" min="0" max="100" value="0">
+    </div>
+    <div class="time">
+      <span id="currentTime">00:00</span> / <span id="duration">00:00</span>
+    </div>
+  </div>
+  <script src="script1.js"></script>
+</body>
+</html>
